@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: user-center-backend
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+access:
+  file:
+    path: src/main/resources/data/access.txt
